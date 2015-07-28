@@ -478,19 +478,25 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-.beauty{
+.beauty, .trends, .world, .interesting, .whatWeDo, .theTeam
+{
     background-image: url(../img/Background-wallpapers/6792427-free-gray-wallpaper.jpg);
     background-color: #cccccc;
 }
 
-.fashion
+.fashion, .daily, .youth, .whoWeAre, .whyWeDo
 {
     background-image: url("../img/test/bg-content.jpg");
     background-color: darkgrey;
 }
 
-.trends
+
+
+
+#remove
 {
-    background-image: url(../img/gray_gradient_light_dark_background_hd-wallpaper-49889.jpg);
-    background-color: #cccccc;
+    /*
+        list-style-type: upper-roman;
+    */
+    list-style: none;
 }
