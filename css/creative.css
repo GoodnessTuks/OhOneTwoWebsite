@@ -180,7 +180,8 @@ header {
     color: #fff;
     background-image: url(../img/header.jpg);
     text-align: center;
-    color: #fff;
+    color: #CCCC99;
+    font-weight: bolder;
    
     background-position: center;
     -webkit-background-size: cover;
@@ -478,25 +479,66 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-.beauty, .trends, .world, .interesting, .whatWeDo, .theTeam
-{
+.beauty{
     background-image: url(../img/Background-wallpapers/6792427-free-gray-wallpaper.jpg);
     background-color: #cccccc;
 }
 
-.fashion, .daily, .youth, .whoWeAre, .whyWeDo
+.fashion
 {
     background-image: url("../img/test/bg-content.jpg");
     background-color: darkgrey;
 }
 
-
-
-
-#remove
+.trends
 {
-    /*
-        list-style-type: upper-roman;
-    */
-    list-style: none;
+    background-image: url(../img/gray_gradient_light_dark_background_hd-wallpaper-49889.jpg);
+    background-color: #cccccc;
+}
+#contact
+{
+    text-align: center;
+}
+#name
+{
+    font-size: 20px;  
+}
+#Name
+{
+    font-size: 20px;
+    width: 500px;
+}
+#password
+{
+    font-size: 20px;
+}
+#pass
+{
+    font-size: 20px;
+    width: 500px;
+}
+#message
+{
+    font-size: 20px;
+}
+#comment
+{
+    font-size: 20px;
+    width: 500px;
+}
+/*#blog
+{
+    left: 400px;
+} */
+
+#carousel_Of_Images
+{
+    height: 500px;
+    width: 900px;
+}
+
+#social_Media
+{
+    position: relative;
+    left: 45%;
 }
